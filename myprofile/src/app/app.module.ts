@@ -13,7 +13,13 @@ import { FooterComponent } from './components/footer/footer.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 @NgModule({
-  declarations: [AppComponent, FooterComponent],
+  declarations: [
+    AppComponent, 
+    FooterComponent,
+    HeaderComponent,
+    SidebarComponent,
+    HomeComponent
+  ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
     BrowserModule,
