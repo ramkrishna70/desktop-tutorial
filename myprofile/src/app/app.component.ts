@@ -12,7 +12,7 @@ export class AppComponent {
   title = 'Ram Krishna';
 
   constructor(private router:Router){
-    console.log("gdhfdsghsfdsfshgd");
-  	this.router.navigate(["/home"])
+    // console.log("gdhfdsghsfdsfshgd");
+  	//this.router.navigate(["/home"])
   }
 }
