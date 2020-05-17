@@ -26,9 +26,8 @@
         "@services/*": [ "app/services/*" ],
         "@components/*": ["app/components/*"],
         "@guards/*": ["app/guards/*"],
-        "@app/*": ["app/*"],
-        "@models/*":["app/models/*"],
-        "@ng-material/*": ["app/ng-material/*"]
+        "@app/*": ["app/*"], 
+        "@pages/*": ["app/pages/*"]
     },
     "lib": [
       "es2018",
@@ -36,7 +35,7 @@
     ],
     "strict": false
   },
-  
+
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true
