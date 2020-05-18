@@ -20,6 +20,32 @@ b{
     height: 300px;
     position: relative;
     inline-size: fit-content;
-    display: inline-block;
+    display: inline-flex;
     padding: 15px 30px;
+}
+
+.custome-font {
+	font-size: 10px !important;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  .card {
+    display: inline-flex;
+  }
+}
+
+.certificate-class {
+	height: 290px;
+    width: 375px;
+    padding-bottom: 20px;
+}
+
+.certificate-class-with-margin {
+	height: 325px;
+    width: 415px;
+	margin-left: 20px;
 }

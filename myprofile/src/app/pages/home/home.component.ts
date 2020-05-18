@@ -12,5 +12,9 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
  
   }
+  
+  open_url(url:string) {
+  	window.open(url);
+  }
 
 }
