@@ -7,9 +7,14 @@ import { Component, OnInit, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+
+	public date_time:string;
+
   constructor() { }
 
   ngOnInit(): void {
+
+  	this.date_time = new Date().toLocaleDateString();
  
   }
   
