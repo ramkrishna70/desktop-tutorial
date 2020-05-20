@@ -326,8 +326,11 @@
   </div>
 	
 </div> -->
-	<div style="margin-top: 20px;">
-		<iframe src="assets/techgig/Certificate.pdf" width="100%" height="400px"></iframe>
+	<div style="margin-top: 20px;background-color: lightgray; padding: 10px;">
+		<pdf-viewer src="assets/techgig/Certificate.pdf" 
+              [render-text]="true"
+              style="display: block; width: 100%; height: 400px;"></pdf-viewer>
+		<!-- <iframe src="assets/techgig/Certificate.pdf" width="100%" height="400px"></iframe> -->
 	</div>
   <!-- End Page Container -->
 </div>
