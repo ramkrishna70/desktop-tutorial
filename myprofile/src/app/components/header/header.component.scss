@@ -1,0 +1,31 @@
+.navbar {
+  width: 100%;
+  background-color: #009788;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  -webkit-transition: background 2s; 
+  transition: background 2s; 
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #044806d9;
+}
+
+.active {
+  background-color: #98efe566;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
