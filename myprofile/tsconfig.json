@@ -7,7 +7,7 @@
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
-    "module": "esnext",
+    "module": "es2015",
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -27,7 +27,8 @@
         "@components/*": ["app/components/*"],
         "@guards/*": ["app/guards/*"],
         "@app/*": ["app/*"], 
-        "@pages/*": ["app/pages/*"]
+        "@pages/*": ["app/pages/*"],
+        "@models/*": ["app/models/*"]
     },
     "lib": [
       "es2018",
@@ -35,9 +36,8 @@
     ],
     "strict": false
   },
-
   "angularCompilerOptions": {
-    "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true
-  }
+"enableIvy": false, /* for playground */
+}
+   
 }

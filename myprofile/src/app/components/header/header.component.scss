@@ -2,6 +2,9 @@
   width: 100%;
   background-color: #009788;
   overflow: auto;
+  position:fixed;
+  top:0;
+  z-index: 99;
 }
 
 .navbar a {
@@ -10,8 +13,8 @@
   color: white;
   text-decoration: none;
   font-size: 17px;
-  -webkit-transition: background 2s; 
-  transition: background 2s; 
+  -webkit-transition: background 1s; 
+  transition: background 1s; 
   text-align: center;
 }
 

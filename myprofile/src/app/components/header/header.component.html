@@ -7,15 +7,15 @@
   </div>
 </div> -->
 <div class="navbar">
-  <a class="active" href="#"><i class="fa fa-fw fa-user-md"></i> Profile</a>
-  <a href="#"><i class="fa fa-fw fa-university"></i> Education</a>
-  <a href="#"><i class="fa fa-fw fa-cogs"></i> Skills</a> 
-  <a href="#"><i class="fa fa-fw fa-certificate"></i> Certifications</a>
-  <a href="#"><i class="fa fa-fw fa-leanpub"></i> Experience</a> 
-  <a href="#"><i class="fa fa-fw fa-cubes"></i> Projects</a> 
-  <a href="#"><i class="fa fa-fw fa-shield"></i> Achievments</a>
-  <a href="#"><i class="fa fa-fw fa-info-circle"></i> Events</a>  
-  <a href="#"><i class="fa fa-fw fa-newspaper-o"></i>News</a> 
-  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
-  <a href="#"><i class="fa fa-fw fa-unlock-alt"></i> Login</a>
+  <a [ngClass]="active_url == 'home' ? 'active' : '' " [routerLink]="['/']" (click)="process_route('home')"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a [ngClass]="active_url == 'education' ? 'active' : '' " [routerLink]="['/education']" (click)="process_route('education')"><i class="fa fa-fw fa-university"></i> Education</a>
+  <a [ngClass]="active_url == 'skills' ? 'active' : '' " [routerLink]="['/skills']" (click)="process_route('skills')"><i class="fa fa-fw fa-cogs"></i> Skills</a> 
+  <a [ngClass]="active_url == 'certifications' ? 'active' : '' " [routerLink]="['/certifications']" (click)="process_route('certifications')"><i class="fa fa-fw fa-certificate"></i> Certifications</a>
+  <a [ngClass]="active_url == 'experience' ? 'active' : '' " [routerLink]="['/experience']" (click)="process_route('experience')"><i class="fa fa-fw fa-leanpub"></i> Experience</a> 
+  <a [ngClass]="active_url == 'projects' ? 'active' : '' " [routerLink]="['/projects']" (click)="process_route('projects')"><i class="fa fa-fw fa-cubes"></i> Projects</a> 
+  <a [ngClass]="active_url == 'achievments' ? 'active' : '' " [routerLink]="['/achievments']" (click)="process_route('achievments')"><i class="fa fa-fw fa-shield"></i> Achievments</a>
+  <a [ngClass]="active_url == 'events' ? 'active' : '' " [routerLink]="['/events']" (click)="process_route('events')"><i class="fa fa-fw fa-info-circle"></i> Events</a>  
+  <a [ngClass]="active_url == 'news' ? 'active' : '' " [routerLink]="['/latest-news']" (click)="process_route('news')"><i class="fa fa-fw fa-newspaper-o"></i>News</a> 
+  <a [ngClass]="active_url == 'contact' ? 'active' : '' " [routerLink]="['/contact']" (click)="process_route('contact')"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  <a [ngClass]="active_url == 'Resume' ? 'active' : '' " [routerLink]="['/resume']" (click)="process_route('resume')"><i class="fa fa-fw fa-unlock-alt"></i> Resume</a>
 </div>

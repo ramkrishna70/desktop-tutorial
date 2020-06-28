@@ -21,6 +21,9 @@ import { ProjectsComponent } from './pages/projects/projects.component';
 import { EventsComponent } from './pages/events/events.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { LatestNewsComponent } from './pages/latest-news/latest-news.component';
+import { EducationComponent } from './pages/education/education.component';
+import { ErrorComponent } from './pages/error/error.component';
+import { ResumeComponent } from './pages/resume/resume.component';
 
 
 @NgModule({
@@ -38,7 +41,10 @@ import { LatestNewsComponent } from './pages/latest-news/latest-news.component';
     ProjectsComponent,
     EventsComponent,
     ContactComponent,
-    LatestNewsComponent
+    LatestNewsComponent,
+    EducationComponent,
+    ErrorComponent,
+    ResumeComponent
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
@@ -46,7 +52,18 @@ import { LatestNewsComponent } from './pages/latest-news/latest-news.component';
     PdfViewerModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
-      { path: '**', component: HomeComponent }
+      { path: 'login', component: LoginComponent},
+      { path: 'certifications', component: CertificationsComponent},
+      { path: 'achievments', component: AchievmentsComponent},
+      { path: 'experience', component: ExperienceComponent},
+      { path: 'skills', component: SkillsComponent},
+      { path: 'projects', component: ProjectsComponent},
+      { path: 'events', component: EventsComponent},
+      { path: 'contact', component: ContactComponent},
+      { path: 'latest-news', component: LatestNewsComponent},
+      { path: 'education', component: EducationComponent},
+      { path: 'resume', component: ResumeComponent},
+      { path: '**', component: ErrorComponent }
     ]),
     HttpClientModule
   ],

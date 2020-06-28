@@ -1,0 +1,30 @@
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  .card {
+    display: inline-flex;
+  }
+}
+
+.certificate-class {
+	height: 290px;
+    width: 375px;
+    padding-bottom: 20px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.certificate-class:hover {
+ //transform: rotate(360deg);
+}
+
+.certificate-class-with-margin:hover {
+  //transform: rotate(360deg);
+}
+.certificate-class-with-margin {
+	height: 325px;
+    width: 415px;
+	margin-left: 20px;
+	transition: width 2s, height 2s, transform 2s;
+}
