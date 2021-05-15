@@ -24,6 +24,7 @@
     "@ckeditor/ckeditor5-basic-styles": "^20.0.0",
     "@ckeditor/ckeditor5-build-classic": "^20.0.0",
     "@ckeditor/ckeditor5-upload": "^20.0.0",
+    "angular-cli-ghpages": "^1.0.0-rc.1",
     "firebase": "^7.15.5",
     "ng2-pdf-viewer": "^6.3.0",
     "rxjs": "~6.5.4",
