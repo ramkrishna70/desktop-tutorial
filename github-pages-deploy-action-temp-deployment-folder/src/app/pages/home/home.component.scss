@@ -1,0 +1,60 @@
+ 
+
+b{
+	font-weight: 700;
+	font-family: serif;
+}
+
+.row {
+	width: 100%;
+	position: relative;
+	display: block;
+}
+.col-md-6{
+	width: 300px;
+    height: 300px;
+    position: relative;
+    inline-size: fit-content;
+    display: inline-flex;
+    padding: 15px 30px;
+}
+
+.custome-font {
+	font-size: 10px !important;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  .card {
+    display: inline-flex;
+  }
+}
+
+.certificate-class {
+	height: 290px;
+    width: 375px;
+    padding-bottom: 20px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.certificate-class:hover {
+ //transform: rotate(360deg);
+}
+
+.certificate-class-with-margin:hover {
+  //transform: rotate(360deg);
+}
+.certificate-class-with-margin {
+	height: 325px;
+    width: 415px;
+	margin-left: 20px;
+	transition: width 2s, height 2s, transform 2s;
+}
+ 
+
+.tech-card {
+	width: 630px;
+}

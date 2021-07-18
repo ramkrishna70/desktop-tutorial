@@ -1,0 +1,43 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "downlevelIteration": true,
+    "importHelpers": true,
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "types": [
+        "node",
+        "jasmine"
+    ],
+    "paths": {
+        "@assets/*": [ "assets/*" ],
+        "@pipes/*": ["app/customPipes/*"],
+        "@env": [ "environments/environment" ],
+        "@services/*": [ "app/services/*" ],
+        "@components/*": ["app/components/*"],
+        "@guards/*": ["app/guards/*"],
+        "@app/*": ["app/*"], 
+        "@pages/*": ["app/pages/*"],
+        "@models/*": ["app/models/*"]
+    },
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "strict": false
+  },
+  "angularCompilerOptions": {
+"enableIvy": false, /* for playground */
+}
+   
+}
