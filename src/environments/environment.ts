@@ -4,16 +4,15 @@
 
 export const environment = {
   production: false,
-
   firebaseConfig: {
-    apiKey: 'AIzaSyBClMrenbJi6UyxbQ7jX6MlpZzXAwGu-70',
-    authDomain: 'bithost.in',
-    databaseURL: 'https://bithost-e6ea8.firebaseio.com',
-    projectId: 'bithost-e6ea8',
-    storageBucket: 'bithost-e6ea8.appspot.com',
-    messagingSenderId: '433080548698',
-    appId: "1:433080548698:web:cbb2476e06fd3bad890763",
-    measurementId: "G-32X34H9TCV"
+    apiKey: "AIzaSyALsV1NFOf7hLMgsF5R-nrtbD4ZW6X5fOk",
+    authDomain: "ram-krishna-profile.firebaseapp.com",
+    databaseURL: "https://ram-krishna-profile.firebaseio.com",
+    projectId: "ram-krishna-profile",
+    storageBucket: "ram-krishna-profile.appspot.com",
+    messagingSenderId: "214960503814",
+    appId: "1:214960503814:web:7f2b0daa356f258f19d787",
+    measurementId: "G-5XJ6JMZG51"
   }
 };
 
